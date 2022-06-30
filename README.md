@@ -1,7 +1,9 @@
 # Search-AutoComplete-System
-#Cache.txt As a Sample input we have inserted some sentences that we assumed have been searched multiple times.
+## Cache.txt 
+As a Sample input we have inserted some sentences that we assumed have been searched multiple times.
 
-#SearchAutoCompleteSystem.cpp This File contains the main program which works the following way :
+## SearchAutoCompleteSystem.cpp 
+This File contains the main program which works the following way :
 1. Load all the sentences previously searched along with frequencies (Which we have taken to be Cache.txt)
 2. Add all the sentences and frequencies using appropriate Data Structure.
 3. Start Taking input from user letter by letter and calculate results for the same. (We are showing only top 3 results for now)
