@@ -22,7 +22,7 @@ public:
     int isEnd;
     TrieNode() {
         isEnd = 0;
-        children = vector<TrieNode*>(255, nullptr);
+        children = vector<TrieNode*>(256, nullptr);
     }
 };
 
